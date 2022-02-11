@@ -1,0 +1,26 @@
+ #student result
+sno = int(input('Enter the number:-'))
+sname = int(input('Enter the name:-'))
+group = int(input('Enter the group name:-'))
+s1 = int(input('Enter the Maths marks:-'))
+s2 = int(input('Enter the Physics marks:-'))
+s3 = int(input('Enter the Artificial intelligence marks:-:'))
+s4 = int(input('Enter the Telugu marks:-'))
+s5 = int(input('Enter the English marks:-'))
+s6 = int(input('Enter the online bussiness:-'))
+total = (s1+s2+s3+s4+s5+s6)
+avg = total/6
+if avg>=91:
+    print('O grade')
+elif avg>=81:
+    print('A grade')
+elif avg>=71:
+    print('B grade')
+elif avg>=61:
+    print('c grade')
+elif avg>=51:
+    print('D grade')
+elif avg>=40:
+    print('pass')
+else:
+    print('Fail')
